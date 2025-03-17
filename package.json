@@ -1,0 +1,17 @@
+{
+  "name": "pubmed-fetcher",
+  "version": "1.0.0",
+  "description": "A script to fetch PubMed research papers",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "csv-writer": "^1.6.0",
+    "jsdom": "^26.0.0",
+    "node-fetch": "^2.7.0",
+    "xml2js": "^0.6.2"
+  }
+}
